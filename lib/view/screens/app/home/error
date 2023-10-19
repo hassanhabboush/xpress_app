@@ -1,0 +1,132 @@
+//
+
+
+
+
+
+
+
+
+
+
+// import 'package:flutter/material.dart';
+// import 'package:xpress/core/constant/image_asset.dart';
+//
+// class GridView extends StatefulWidget {
+//   const GridView({super.key});
+//
+//   @override
+//   State<GridView> createState() => _GridViewState();
+//
+// }
+//
+// class _GridViewState extends State<GridView> {
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       body: GridView.builder(
+//
+//           gridDelegate:
+//               SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 1),
+//           itemBuilder: (context, index) {
+//             return Text('data');
+//           }),
+//     );
+//   }
+// }
+//
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// appBar: MyAppBar(),
+// appBar: AppBar(
+//   backgroundColor: Colors.transparent,
+//   elevation: 0,
+//   title: const Text(
+//     'Home',
+//     style: TextStyle(
+//       fontSize: 20,
+//       color: Color(0xff1ABCBC),
+//     ),
+//   ),
+//   centerTitle: true,
+//   leading: const Icon(
+//     Icons.menu,
+//     color: Color(0xff1ABCBC),
+//   ),
+//   actions: [
+//     Container(
+//       margin: const EdgeInsets.symmetric(horizontal: 10,vertical: 10),
+//       height: 28 ,
+//       width: 70,
+//       decoration: BoxDecoration(
+//         color: const Color(0xffEDEFED),
+//         borderRadius: BorderRadius.circular(14),
+//       ),
+//       child: const Align(
+//         alignment: Alignment.centerRight,
+//         child: Padding(
+//           padding: EdgeInsets.only(right: 10.0),
+//           child: Icon(
+//             Icons.search,
+//             color: Color(0xff1ABCBC),
+//           ),
+//         ),
+//       ),
+//     ),
+//   ],
+// ),
+
+
+
+// GridView.builder(
+// // scrollDirection: Axis.vertical,
+// // padding: EdgeInsets.only(
+// // top: 60,
+// // ),
+// // itemCount: 4,
+// // gridDelegate:  SliverGridDelegateWithFixedCrossAxisCount(
+// // crossAxisCount: 4,
+// // mainAxisSpacing: 6,
+// // ),
+// // itemBuilder: (context, index) {
+// // return Wrap(
+// // runSpacing: 6,
+// // spacing: 6,
+// // children: [
+// // Chip(
+// // elevation: 3,
+// // avatar: Image.asset(AppImageAsset.vegetables),
+// // backgroundColor: Colors.white,
+// // padding: EdgeInsets.all(10),
+// // autofocus: true,
+// // label: Text('Vegetables'),
+// // ),
+// // ],
+// // );
+// // },
+// // ),
+// // GridView.builder(
+// // itemCount: 10,
+// // gridDelegate:
+// // SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
+// // itemBuilder: (context, index) {
+// // return Container(
+// // height: 100,
+// // width: 100,
+// // color: Colors.black,
+// // );
+// // },
+// // ),
